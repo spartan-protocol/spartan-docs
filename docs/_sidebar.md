@@ -1,4 +1,4 @@
-- [**Introduction**](/introduction.md "Introduction to Spartan Protocol & the SPARTA token")
-- [**Getting Started**](/getting-started.md "Wallets & tools for BSC & Spartan Protocol")
-- [**Developers**](/developers.md "References for developers working with Spartan Protocol")
-- [**Contribute**](/contribute.md "References for Spartans looking to contribute")
+- [:wave: **Introduction**](/introduction.md "Introduction to Spartan Protocol & the SPARTA token")
+- [:muscle: **Getting Started**](/getting-started.md "Wallets & tools for BSC & Spartan Protocol")
+- [:zap: **Developers**](/developers.md "References for developers working with Spartan Protocol")
+- [:star: **Contribute**](/contribute.md "References for Spartans looking to contribute")
