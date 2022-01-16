@@ -1,0 +1,4 @@
+- [**Tanıtım**](/tr/introduction.md "Introduction to Spartan Protocol & the SPARTA token")
+- [**Başlarken**](/tr/getting-started.md "Wallets & tools for BSC & Spartan Protocol")
+- [**geliştiriciler**](/tr/developers.md "References for developers working with Spartan Protocol")
+- [**Katkıda bulunmak**](/tr/contribute.md "References for Spartans looking to contribute")
