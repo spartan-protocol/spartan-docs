@@ -1,59 +1,62 @@
 ## API
 
-API Info
+API Info *Coming Soon*
+
+---
+
+## Aggregator Integration Guide
+
+*Coming Soon*
 
 ---
 
 ## Smart contracts
 
-Repo link, solidity resources etc
+Please find below some important notes divided up by contract scope for the curious Spartans & developers looking to integrate.
+For projects looking to fork or explore our ideas in their own project, we live and breath open source and welcome you to both fork and integrate in our community and ask questions. 
+
+We only want to see things get built and continue to innovate the decentralised, open source world, so reach out and let us know what you are working on.
 
 ##### Base contract
 
-Token distro info
+*Coming Soon*
 
 ##### BondVault contract
 
-Token distro info
+*Coming Soon*
 
 ##### DAO contract
 
-Token distro info
+*Coming Soon*
 
 ##### DaoVault contract
 
-Token distro info
+*Coming Soon*
 
 ##### FallenSpartans contract
 
-Token distro info
+*Coming Soon*
 
 ##### PoolFactory contract
 
-Token distro info
+*Coming Soon*
 
 ##### Reserve contract
 
-Token distro info
+*Coming Soon*
 
 ##### Router contract
 
-Token distro info
+*Coming Soon*
 
 ##### SynthFactory contract
 
-Token distro info
+*Coming Soon*
 
 ##### SynthVault contract
 
-Token distro info
+*Coming Soon*
 
 ##### Utils contract
 
-Token distro info
-
----
-
-## DApp
-
-DAppp dev info / links
+*Coming Soon*
