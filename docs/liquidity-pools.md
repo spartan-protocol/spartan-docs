@@ -16,11 +16,21 @@ This presents a 'risk' of course, for instance, the number of units you put in i
 
 'Impermanent loss' is an issue that Spartan Protocol aims to combat through sustainable pools with circular incentives focused on rewarding the users who provide liquidity & utility to the protocol. 100% of the fee revenue is injected into the pools for the liquidity providers; there is no middleman taking a cut in this community-built-and-driven protocol.
 
+## Curated Pools
+
+Spartan Protocol pools have a special status reserved for the most active pools called 'Curated'. The community DAO decides which pools are added or removed from the Curated list using the on-chain DAO functionality. If a pool is Curated, it is enabled for a range of extra features & incentives. Curated LP tokens earn extra 'Dividends' ontop of the usual revenue and are able to also be staked in the DaoVault for extra yield and governance weight in proposals. For a Synth to be deployed/created, it must use an underlying Curated pool.
+
 ## Dividends
 
-If your pool is 'Curated' it means it is enabled for a range of extra features & incentives. One of those incentives is called 'Dividends'. Dividends are injected into the pool (in the form of SPARTA) whenever a qualifying swap is performed within a the pool. It doesn't come from the user performing the swap as the slip fee does, instead coming from the 'Reserve' contract which controls the flow of emitted SPARTA incentives throughout the protocol.
+Most important of the Curated points to discuss here is 'Dividends', which are injected into the pool (in the form of SPARTA) whenever a qualifying swap is performed within a the pool. It doesn't come from the user performing the swap as the slip fee does, instead coming from the 'Reserve' contract which controls the flow of emitted SPARTA incentives throughout the protocol.
 
 ---
+
+## Listing / Creating a Pool
+
+Another way Spartan Protocol hands over control to its users is through its open listing policy. Literally anyone is free to permissionlessly list any standard BEP20 token any time they like by clicking a few buttons & providing the initial liquidity. You don't need permission from us or the token project or CZ 😂 if you want a pool, you are free to go ahead and create the pool.
+
+It is advised to think & plan carefully before doing so though, as a general rule, pools become an efficient swap option at a minimum of ~$100,000 in liquidity. Ideally, all pools should aim to have more than $200,000 in liquidity so that they can have low swap fees and become a viable route for aggregators, therefore earning sustainable revenue to grow deeper in a feedback loop.
 
 ## Symmetrical Liquidity Add (Add Both)
 
@@ -50,6 +60,7 @@ If you however choose to remove liquidity to 'one side' the process is very simi
 
 ## Guides
 
+- [Create / List Pool *Guide Coming Soon*](/liquidity-pools?id=guides)
 - [Analyze Pools](/guides/pools/analyze.md)
 - [Add Liquidity (Both)](/guides/pools/add-both.md)
 - [Add Liquidity (Single)](/guides/pools/add-single.md)
