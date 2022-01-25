@@ -14,7 +14,7 @@ Or navigate to the liquidity page if you are already in the DApp:
 - Open the menu
 - Click 'Liquidity'
 
-This can also be acheived via the 'pools' / 'home' page by clicking 'Join' under the specific pool you want to assess:
+This can also be achieved via the 'pools' / 'home' page by clicking 'Join' under the specific pool you want to add to:
 
 ![Pools join](/../../_media/guides/pools/pools-join.png)
 
@@ -102,10 +102,10 @@ Select which asset you want to add as liquidity to the pool along with SPARTA
   - **Check Wallet:** You have not yet connected your wallet to the DApp, follow this guide.
   - **Check Input:** One of your input amounts are not valid; it might be 0 or a negative number. Confirm and fix.
   - **Check BNB (Gas):** You do not have enough BNB in your wallet to cover the chain gas costs of this txn. Transfer some BNB into your wallet to continue. Also confirm you have the intended wallet connected.
-  - **Check Balance:** One of your input amounts are higher than the balance in your wallet; go back to step 4 and also confirm you have the intended wallet connected.
+  - **Check Balance:** One of your input amounts are higher than the balance in your wallet; go back and also confirm you have the intended wallet connected.
   - **Slip Too High:** This is a feature to protect you from performing a liquidity-add with very high slippage. Check the pool depths and size of your liquidity add and consider adding a safer amount.
   - **Pool At Capacity:** There are temporary caps/limits to how much liquidity can be added to each pool. If you would like a pool's caps raised please signal your support on social media using the #OpenTheGates hashtag and $SPARTA and $BNB (or whatever token/pool you are referring to)
-  - **Confirm Lockup:** The pool you are entering was created less than 7 days ago; you need to confirm you realise your liquidity will be locked in this pool until the pool is at least 7 days old (see image in step 5)
+  - **Confirm Lockup:** The pool you are entering was created less than 7 days ago; you need to confirm you realise your liquidity will be locked in this pool until the pool is at least 7 days old (see image in steps)
   - **Confirm Freeze:** The Curated pool you are adding liquidity to is currently outside its safe ratio. This means that liquidity cannot be removed from this pool. Consider whether you might need to remove your liquidity for an emergency but if you are happy to continue check the confirm button.
 - I am having some other issue: No problem; reach out on Telegram to help narrow down the issue and get you back on track!
 

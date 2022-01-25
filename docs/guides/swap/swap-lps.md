@@ -12,7 +12,7 @@ Or navigate to the swap page if you are already in the DApp:
 - Open the menu
 - Click 'Swap'
 
-This can also be acheived via the 'pools' / 'home' page by clicking 'Swap' under the specific asset you want to swap:
+This can also be achieved via the 'pools' / 'home' page by clicking 'Swap' under the specific asset you want to swap:
 
 ![Pools join](/../../_media/guides/swap/home-swap.png)
 
@@ -106,7 +106,7 @@ This can also be acheived via the 'pools' / 'home' page by clicking 'Swap' under
   - **Check Wallet:** You have not yet connected your wallet to the DApp, follow this guide.
   - **Check Input:** One of your input amounts are not valid; it might be 0 or a negative number. Confirm and fix.
   - **Check BNB (Gas):** You do not have enough BNB in your wallet to cover the chain gas costs of this txn. Transfer some BNB into your wallet to continue. Also, confirm you have the intended wallet connected.
-  - **Check Balance:** The input amount is higher than the balance in your wallet; go back to step 5 and also confirm you have the intended wallet connected.
+  - **Check Balance:** The input amount is higher than the balance in your wallet; go back and also confirm you have the intended wallet connected.
   - **Pool Frozen:** The Curated pool you are trying to move liquidity from is currently outside its safe rates. You will need to wait for the pools to rebalance or for the safe ratio to adjust to a safe level.
   - **Slip Too High:** This is a feature to protect you from performing a liquidity-add with very high slippage. Check the pool depths and size of your swap and consider adding a safer amount.
   - **Pool At Capacity:** There are temporary caps/limits to how much liquidity can be added to each pool. If you would like a pool's caps raised please signal your support on social media using the #OpenTheGates hashtag & $SPARTA & $BNB (or whatever token/pool you are referring to)

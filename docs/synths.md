@@ -35,5 +35,5 @@ Synths are designed to be a longer-term move, similar to providing liquidity, bu
 ## Guides
 
 - [List / Create Synth Asset _Guide Coming Soon_](/synths?id=guides)
-- [Forge Synths _Guide Coming Soon_](/synths?id=guides)
-- [Melt Synths _Guide Coming Soon_](/synths?id=guides)
+- [Forge Synths](/guides/synths/forge.md)
+- [Melt Synths](/guides/synths/melt.md)

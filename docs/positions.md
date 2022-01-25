@@ -24,5 +24,5 @@ Forging Synth positions has pretty much all the same nuances as the above but ar
 
 ## Guides
 
-- [Liquidity Pool Positions _Guide Coming Soon_](/positions?id=guides)
+- [Liquidity Pool Positions](/guides/positions/liquidity.md)
 - [Synthetic Positions _Guide Coming Soon_](/positions?id=guides)

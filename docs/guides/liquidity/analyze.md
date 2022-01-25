@@ -12,7 +12,7 @@ Or navigate to the liquidity page if you are already in the DApp:
 - Open the menu
 - Click 'Liquidity'
 
-This can also be acheived via the 'pools' / 'home' page by clicking 'Join' under the specific pool you want to assess:  
+This can also be achieved via the 'pools' / 'home' page by clicking 'Join' under the specific pool you want to assess:  
 ![Pools join](/../../_media/guides/pools/pools-join.png)
 
 ---

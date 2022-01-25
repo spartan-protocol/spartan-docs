@@ -28,6 +28,6 @@ The Bond program was retired when the SPARTA token distribution phase was ended 
 
 ## Guides
 
-- [DaoVault Staking _Guide Coming Soon_](/staking?id=guides)
-- [SynthVault Staking _Guide Coming Soon_](/staking?id=guides)
-- [Claim from BondVault _Guide Coming Soon_](/staking?id=guides)
+- [DaoVault Staking](/guides/staking/dao-vault.md)
+- [SynthVault Staking](/guides/staking/synth-vault.md)
+- [Claim from BondVault](/guides/staking/bond-vault.md)

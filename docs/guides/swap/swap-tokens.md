@@ -12,7 +12,7 @@ Or navigate to the swap page if you are already in the DApp:
 - Open the menu
 - Click 'Swap'
 
-This can also be acheived via the 'pools' / 'home' page by clicking 'Swap' under the specific asset you want to swap:
+This can also be achieved via the 'pools' / 'home' page by clicking 'Swap' under the specific asset you want to swap:
 
 ![Pools join](/../../_media/guides/swap/home-swap.png)
 
@@ -106,7 +106,7 @@ This can also be acheived via the 'pools' / 'home' page by clicking 'Swap' under
   - **Check Wallet:** You have not yet connected your wallet to the DApp.
   - **Check Input:** Your input amount is not valid; it might be 0 or a negative number. Confirm and fix.
   - **Check BNB (Gas):** You do not have enough BNB in your wallet to cover the chain gas costs of this txn. Transfer some BNB into your wallet to continue. Also confirm you have the intended wallet connected.
-  - **Check Balance:** The input amount is higher than the balance in your wallet; go back to step 5 and also confirm you have the intended wallet connected.
+  - **Check Balance:** The input amount is higher than the balance in your wallet; go back and also confirm you have the intended wallet connected.
 - **I am having some other issue:** No problem; reach out on Telegram to help narrow down the issue and get you back on track!
 
 ---
