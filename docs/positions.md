@@ -14,7 +14,7 @@ When providing liquidity, there are alot of variables at play that affect your p
 - What did you do with your yield after harvesting?
 - What did you do with your liquidity after removing?
 
-Unfortunately it is impossible to cover every single scope & nuance, however the liquidity positions page attempts to cover as much of those subjective angles as possible so that you can assess whether you are up or down in whatever your desired scope might be.
+Unfortunately it is impossible to cover every single scope and nuance, however the liquidity positions page attempts to cover as much of those subjective angles as possible so that you can assess whether you are up or down in whatever your desired scope might be.
 
 ## Synth Position
 

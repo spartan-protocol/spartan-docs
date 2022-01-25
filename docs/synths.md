@@ -4,7 +4,7 @@ As the Spartan Protocol liquidity pools growth in depth, they are able to facili
 
 ## Why Forge a Synth?
 
-"But if it is just like holding the underlying asset, why bother doing it?" - Holding a Synth asset provides extra options & utility in the Spartan ecosystem. For instance, at the moment, when you forge a Synth, it is sent directly to the SynthVault, where it accrues compounding yield constantly. A major advantage here of BNBs over BNB for insstance, is that it is earning more BNBs or SPARTA every day, whereas holding BNB in your wallet does not accrue any yield.
+"But if it is just like holding the underlying asset, why bother doing it?" - Holding a Synth asset provides extra options and utility in the Spartan ecosystem. For instance, at the moment, when you forge a Synth, it is sent directly to the SynthVault, where it accrues compounding yield constantly. A major advantage here of BNBs over BNB for insstance, is that it is earning more BNBs or SPARTA every day, whereas holding BNB in your wallet does not accrue any yield.
 
 ## What About Impermanent Loss?
 
@@ -22,7 +22,7 @@ Once a Synth is created/deployed, users are able to swap any listed BSC tokens (
 
 > **Synth Caps**
 >
-> There are Synth-caps in place to limit the amount of Synths that can be minted vs the token-depth of a pool. The dynamic cap gradually adjusts with time, activity & pool depth towards the hard cap to ensure maximum distribution of the tokens.
+> There are Synth-caps in place to limit the amount of Synths that can be minted vs the token-depth of a pool. The dynamic cap gradually adjusts with time, activity and pool depth towards the hard cap to ensure maximum distribution of the tokens.
 >
 > If you are not able to forge a Synth due to the caps, decrease the size of your forge or come back later to try again.
 

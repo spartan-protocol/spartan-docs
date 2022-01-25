@@ -18,5 +18,5 @@ Currently this feature has only been integrated in the [community-run DApp](http
 
 ## Guides
 
-- [Swap Tokens *Guide Coming Soon*](/swap?id=guides)
-- [Swap LP Tokens *Guide Coming Soon*](/swap?id=guides)
+- [Swap Tokens](/guides/swap/swap-tokens.md)
+- [Swap LP Tokens](/guides/swap/swap-lps.md)

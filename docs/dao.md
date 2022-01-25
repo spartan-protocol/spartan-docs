@@ -2,7 +2,7 @@
 
 A Decentralised Autonomous Organisation (DAO) places the community participants in control of the platform transparently and programmatically. The power of on-chain smart contracts means that a large number of automated actions within a contract can be set up and voted on, the results of which can be automatically actioned.
 
-Many DAOs these days are mostly off-chain or only have the voting on-chain which is then handed over to a trusted admin/council to actually enact the proposed changes. The reason most projects opt to run the DAO in this way is simply because DAOs are complex and difficult to place on-chain due to the chain-limitations and gas costs. Spartan Protocol worked really hard to ensure they didn't cop out and go the easy route, the entire Spartan DAO is on-chain & automated, _including the functions being actioned following a successful proposal._ There is _no_ reliance on an admin or council of individuals to make the proposal happen once it's successfully approved by majority consensus.
+Many DAOs these days are mostly off-chain or only have the voting on-chain which is then handed over to a trusted admin/council to actually enact the proposed changes. The reason most projects opt to run the DAO in this way is simply because DAOs are complex and difficult to place on-chain due to the chain-limitations and gas costs. Spartan Protocol worked really hard to ensure they didn't cop out and go the easy route, the entire Spartan DAO is on-chain and automated, _including the functions being actioned following a successful proposal._ There is _no_ reliance on an admin or council of individuals to make the proposal happen once it's successfully approved by majority consensus.
 
 ## Who makes up the DAO?
 
@@ -10,7 +10,15 @@ Many DAOs these days are mostly off-chain or only have the voting on-chain which
 
 ## What can the DAO do?
 
-The Spartan DAO can do _ALOT._ Its definitely the most expansive on-chain DAO I have ever used, giving so much control & trust to the Spartan community to really be able to operate and maintain the protocol now and ongoing.
+The Spartan DAO can do _ALOT._ Its definitely the most expansive on-chain DAO many users have ever used, giving so much control and trust to the Spartan community to really be able to operate and maintain the protocol now and ongoing. These actions the DAO can perform are triggered via DAO proposals.
+
+## DAO Proposals
+
+Anyone can create a DAO proposal at any time, as long as no other DAO proposal is currently active. The proposer simply has to visit the DAO and click a few buttons to select their proposal type and parameters. They will then have to confirm a transaction to initialise the proposal on-chain.
+
+Some gas and a 'new proposal fee' will require payment by the proposer. This fee doesn't go to any middleman, its intention is not rent-seeking, it goes to the reserve which is where all non-owned SPARTA sits waiting to be released via incentives to good peers in the ecosystem. The main reason for this fee is to help resist spamming / greifing and also to ensure the Spartan is sure about this proposal before confirming it. All proposers should seek general consensus from the community on a proposal _prior_ to creating the proposal on-chain, otherwise they will likely have trouble reaching consensus on-chain within the required time period.
+
+Some more info on the different proposal types in the next section:
 
 ---
 
@@ -44,13 +52,13 @@ Conversely, should a Curated pool fail to hold the desire of the community, a pr
 
 > ℹ. `SYNTH_CLAIM ` Requires: 50% Consensus
 
-Here we can regulate the claim percentage of the Reserve that the SynthVault can begin 'harvest' calculations off. If increased; the harvest rewards will be larger. If decreased they will be lower. This proposal has a hard-coded max input of 1500 basis points & a minimum of 0 basis points (which would effectively turn off harvest rewards)
+Here we can regulate the claim percentage of the Reserve that the SynthVault can begin 'harvest' calculations off. If increased; the harvest rewards will be larger. If decreased they will be lower. This proposal has a hard-coded max input of 1500 basis points and a minimum of 0 basis points (which would effectively turn off harvest rewards)
 
 ## Adjust DaoVault Claim %
 
 > ℹ. `DAO_CLAIM` Requires: 50% Consensus
 
-Here we can regulate the claim percentage of the Reserve that the DaoVault can begin 'harvest' calculations off. If increased; the harvest rewards will be larger. If decreased they will be lower. This proposal has a hard-coded max input of 1500 basis points & a minimum of 0 basis points (which would effectively turn off harvest rewards)
+Here we can regulate the claim percentage of the Reserve that the DaoVault can begin 'harvest' calculations off. If increased; the harvest rewards will be larger. If decreased they will be lower. This proposal has a hard-coded max input of 1500 basis points and a minimum of 0 basis points (which would effectively turn off harvest rewards)
 
 ## Change DAO Proposal Cooloff
 

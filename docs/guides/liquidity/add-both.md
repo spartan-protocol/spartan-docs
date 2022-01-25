@@ -1,8 +1,8 @@
 ## Adding Liquidity Symmetrically (Add Both)
 
-Before we begin here; it is important you do your research on AMMs, liquidity pools & providing liquidity. For now, you can start with the [information in our docs on our liquidity pools](/liquidity-pools.md). It is also recommended to assess a pool before providing liquidity, [read about how to analyze pools here](/guides/pools/analyze.md).
+Before we begin here; it is important you do your research on AMMs, liquidity pools and providing liquidity. For now, you can start with the [information in our docs on our liquidity pools](/liquidity-pools.md). It is also recommended to assess a pool before providing liquidity, [read about how to analyze pools here](/guides/pools/analyze.md).
 
-Also, make sure you have already created your wallet & connected it to the DApp. This guide assumes you have done the necessary steps to get setup including doing research on how these functions work, important to make sure you know what 'adding liquidity' is and how it affects you. It is not to be confused with what is generally regarded as 'staking', they are vastly different things.
+Also, make sure you have already created your wallet and connected it to the DApp. This guide assumes you have done the necessary steps to get setup including doing research on how these functions work, important to make sure you know what 'adding liquidity' is and how it affects you. It is not to be confused with what is generally regarded as 'staking', they are vastly different things.
 
 #### 1. Liquidity page in the DApp
 
@@ -74,7 +74,7 @@ Select which asset you want to add as liquidity to the pool along with SPARTA
 
 - Congratulations! You just joined the pools!
 - Once the transaction completes, feel free to click the wallet icon (top right of DApp) and click the 'LPs' tab to see your fresh new LP tokens in your wallet
-- Guide here to: Explore your wallet & held LP tokens
+- Guide here to: Explore your wallet and held LP tokens
 
 ![Wallet icon](/../../_media/guides/pools/wallet-icon.png)
 
@@ -87,7 +87,7 @@ Select which asset you want to add as liquidity to the pool along with SPARTA
   - **Check Input:** One of your input amounts are not valid; it might be 0 or a negative number. Confirm and fix.
   - **Check BNB (Gas):** You do not have enough BNB in your wallet to cover the chain gas costs of this txn. Transfer some BNB into your wallet to continue. Also confirm you have the intended wallet connected.
   - **Check Balance:** One of your input amounts are higher than the balance in your wallet; go back to step 4 and also confirm you have the intended wallet connected.
-  - **Pool At Capacity:** There are temporary caps/limits to how much liquidity can be added to each pool. If you would like a pool's caps raised please signal your support on social media using the #OpenTheGates hashtag & $SPARTA & $BNB (or whatever token/pool you are referring to)
+  - **Pool At Capacity:** There are temporary caps/limits to how much liquidity can be added to each pool. If you would like a pool's caps raised please signal your support on social media using the #OpenTheGates hashtag and $SPARTA and $BNB (or whatever token/pool you are referring to)
   - **Confirm Lockup:** The pool you are entering was created less than 7 days ago; you need to confirm you realise your liquidity will be locked in this pool until the pool is at least 7 days old (see image in step 5)
   - **Confirm Freeze:** The Curated pool you are adding liquidity to is currently outside its safe ratio. This means that liquidity cannot be removed from this pool. Consider whether you might need to remove your liquidity for an emergency but if you are happy to continue check the confirm button.
 - I am having some other issue: No problem; reach out on Telegram to help narrow down the issue and get you back on track!

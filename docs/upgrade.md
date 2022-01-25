@@ -1,4 +1,4 @@
-## Why is there a V1 & V2 SPARTA Token?
+## Why is there a V1 and V2 SPARTA Token?
 
 The SPARTAv1 token was deployed back when Binance Smart Chain was first launched onto mainnet in September 2020. SPARTAv1 was only obtained via a unique 'Fair Launch' token distribution called Proof-of-Burn. Just like what we see now, there was also a V1 protocol with liquidity pools that had SPARTAv1 in them. The pools were involved in an unfortunate exploit in May 2021 leading to discussions on how best to help the liquidity providers dubbed 'the FallenSpartans'. The community and active contributors landed on the idea of making a 1:1 bridge directly over to a new V2 token with a partial token allocation aside for the Spartans affected by the events in V1.
 
