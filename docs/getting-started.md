@@ -22,11 +22,12 @@ Choosing a wallet can be a bit subjective based on your preference and devices. 
 
 Mobile wallets are great for users who don't need the added security of a hardware wallet or maybe only use a hardware wallet for their cold storage. Mobile wallets tend to have great user interfaces and make things easy for the user. This usually comes at a cost of some features like testnet support & obviously hardware wallets.
 
-|             Mobile Wallets              | Android Support | Apple Support | Hardware Wallet Support | Testnet Support |                                                    Comment                                                     |
-| :-------------------------------------: | :-------------: | :-----------: | :---------------------: | :-------------: | :------------------------------------------------------------------------------------------------------------: |
-| [TrustWallet](https://trustwallet.com/) |       ✅        |      ✅       |           ❌            |       ❌        | Great all-rounder solution if you don't need testnet or hardware wallet, can use on desktop thru WalletConnect |
-|    [ONTO Wallet](https://onto.app/)     |       ✅        |      ✅       |           ❌            |       ❌        |                                Cool features, NFT support, great user interface                                |
-|    [MetaMask](https://metamask.io/)     |       ✅        |      ❌       |           ❌            |       ✅        |                                     Popular & trusty option, used by many                                      |
+|                   Mobile Wallets                   | Android Support | Apple Support | Hardware Wallet Support | Testnet Support |                                                    Comment                                                    |
+| :------------------------------------------------: | :-------------: | :-----------: | :---------------------: | :-------------: | :-----------------------------------------------------------------------------------------------------------: |
+|      [TrustWallet](https://trustwallet.com/)       |       ✅        |      ❌       |           ❌            |       ❌        | Great all-rounder solution if you don't need testnet nor Apple support, can use on desktop thru WalletConnect |
+|          [ONTO Wallet](https://onto.app/)          |       ✅        |      ✅       |           ❌            |       ❌        |                               Cool features, NFT support, great user interface                                |
+|          [MetaMask](https://metamask.io/)          |       ✅        |      ✅       |           ❌            |       ✅        |                                     Popular & trusty option, used by many                                     |
+| [Coinbase Wallet](https://www.coinbase.com/wallet) |       ✅        |      ✅       |           ❌            |       ✅        |                        Great all-rounder solution, can use on desktop thru WalletLink                         |
 
 ##### Laptop / Desktop wallets:
 
@@ -35,8 +36,10 @@ The web3 experience tends to be best on larger devices, if you desire hardware w
 |                                                       Desktop Wallets                                                        | Ledger Support | Trezor Support | Testnet Support | Mobile Wallet Support |
 | :--------------------------------------------------------------------------------------------------------------------------: | :------------: | :------------: | :-------------: | :-------------------: |
 |                                 [TrustWallet (Via WalletConnect)](https://trustwallet.com/)                                  |       ❌       |       ❌       |       ❌        |          ✅           |
+|                             [Coinbase Wallet (Via WalletLink)](https://www.coinbase.com/wallet)                              |       ❌       |       ❌       |       ✅        |          ✅           |
 |                                     [MetaMask (Chrome Extension)](https://metamask.io/)                                      |       ✅       |       ✅       |       ✅        |          ❌           |
 | [BinanceChain (Chrome Extension)](https://chrome.google.com/webstore/detail/binance-wallet/fhbohimaelbohpjbbldcngcnapndodjp) |       ✅       |       ❌       |       ✅        |          ❌           |
+| [Coinbase Wallet (Chrome Extension)](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad) |       ✅       |       ❌       |       ✅        |          ❌           |
 
 ### Connect to DApp
 
