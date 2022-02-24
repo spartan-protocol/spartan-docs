@@ -26,6 +26,25 @@ The BondVault holds the time-locked LP tokens of Spartans who participated in th
 
 The Bond program was retired when the SPARTA token distribution phase was ended and remaining distribution (~37% of the supply at the time) was burned to the 0x0dead address permanently.
 
+
+---
+
+## DApp Features
+
+### What is the Vault APY
+
+The yield that users receive from the vaults is not set/fixed nor predictable. All we can do is look at historic performance and provide some general guides/assumptions about the future. 
+
+Here is a general overview of how the DApp calculates the history-based APY estimations for staking in the vaults:
+- **Yield** = Last 30 days total globally Harvested (in SPARTA value)
+- **Depth** = Current global SPARTA weight in the Vault
+
+With those two variables it is pretty simple:
+- **APR** = (Yield * 12) / Depth
+- **APY** = APR * weekly compounding (it actually compounds every time you harvest, so a week has been chosen as the average harvest rate for this estimation)
+
+So what we are doing is using the last 30 days total Harvested amount (in SPARTA value), then multiplying it by 12 to make a full year of estimated yield then scaling it down by the amount of SPARTA staked in the Vault.
+
 ---
 
 ## Guides
