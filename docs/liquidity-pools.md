@@ -60,6 +60,26 @@ If you however choose to remove liquidity to 'one side' the process is very simi
 
 ---
 
+## DApp Features
+
+### What is the Pool APY
+
+As explained earlier, providing liquidity is very different from staking in a yield farm. The yield that users receive from providing liquidity isn't set/fixed nor predictable. All we can do is look at historic performance and provide some general guides/assumptions about the future. 
+
+Here is a general overview of how the DApp calculates the history-based APY estimations for providing liquidity to a pool:
+- **Revenue** = Last 30 Days (Slip fees, divis etc) in SPARTA units value
+- **Depth** = Current SPARTA in the pool * 2 (The TVL in SPARTA value)
+
+With those two variables it is pretty simple:
+- **APR** = (Revenue * 12) / Depth
+- **APY** = APR * monthly compounding (technically the pool compounds every block/trade, but it is better to under-estimate)
+
+So what we are doing is using the last 30 days of recent pool revenue (in SPARTA value), then multiplying it by 12 to make a full year of estimated revenue then scaling it down by the amount of SPARTA in the pool.
+
+Remember, we should never look at the APY displayed in the DApp and stop there, make sure you do further [analysis of pools](/guides/liquidity/analyze.md) before providing liquidity.
+
+---
+
 ## Guides
 
 - [Create / List Pool *Guide Coming Soon*](/liquidity-pools?id=guides)
