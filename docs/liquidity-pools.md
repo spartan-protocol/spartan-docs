@@ -30,9 +30,31 @@ Most important of the Curated points to discuss here is 'Dividends', which are i
 
 ### Listing / Creating a Pool
 
-Another way Spartan Protocol hands over control to its users is through its open listing policy. Literally anyone is free to permissionlessly list any standard BEP20 token any time they like by clicking a few buttons and providing the initial liquidity. You don't need permission from us or the token project or CZ 😂 if you want a pool, you are free to go ahead and create the pool.
+Another way Spartan Protocol hands over control to its users is through its open listing policy. Literally anyone is free to permissionlessly list any standard BEP20 token any time they like by clicking a few buttons and providing the initial liquidity. You don't need permission from any devs or the token's project team or CZ 😂 if you want a pool, you are free to go ahead and create it.
 
-It is advised to think and plan carefully before doing so though, as a general rule, pools become an efficient swap option at a minimum of ~$100,000 in liquidity. Ideally, all pools should aim to have more than $200,000 in liquidity so that they can have low swap fees and become a viable best-route for aggregators, therefore earning sustainable revenue to grow deeper in a feedback loop.
+Think and plan carefully before doing so though, as a general rule, pools become an efficient swap option at a minimum of ~$100,000 in liquidity. Ideally, all pools should aim to build up more than $200,000 in liquidity so that they can have low swap fees and become a viable best-route for aggregators, therefore earning sustainable revenue to grow deeper in a feedback loop.
+
+> **Burn 1% For the Good of All**
+>
+> When you create a pool, 1% of the initially minted LP tokens will be sent to the Base contract and burned out of circulation permanently. As the pool creator and true Spartan, you are sacrificing 1% to create a safer environment for all who follow you:
+>
+> - Prevent pool from ever having zero of either asset
+> - Protects unsuspecting users from infinite-percentage attacks
+> - Protects against WEI rounding discrepancies
+
+### Initializing Pools
+
+When a fresh new pool is deployed / created by someone in the community, it has a special status called 'Initializing' applied to it for 7 days. During this short period, users can add liquidity and swap permissionlessly just like any other normal pool. However, **no-one can remove liquidity** until the pool reaches the end of its 'Initializing' phase.
+
+As soon as 7 days has passed since the pool was deployed, it instantly and automatically becomes a proper, normal, mature pool without the 'Initializing' limitations.
+
+> **Resist Manipulation and Spam**
+>
+> The main reason for this initializing phase is to add resistance against manipulation and spam. Coupled with the minimum-liquidity requirements to create a pool, this proves that the pool-creator and early supporters have conviction and truly believe in the pool's potential. It also helps:
+>
+> - Resist early-stage pool manipulation
+> - Prevent using a flash loan to create a pool
+> - Effectively reduce griefers from spamming new pools
 
 ### Symmetrical Liquidity Add (Add Both)
 
@@ -64,15 +86,17 @@ If you however choose to remove liquidity to 'one side' the process is very simi
 
 ### What is the Pool APY
 
-As explained earlier, providing liquidity is very different from staking in a yield farm. The yield that users receive from providing liquidity isn't set/fixed nor predictable. All we can do is look at historic performance and provide some general guides/assumptions about the future. 
+As explained earlier, providing liquidity is very different from staking in a yield farm. The yield that users receive from providing liquidity isn't set/fixed nor predictable. All we can do is look at historic performance and provide some general guides/assumptions about the future.
 
 Here is a general overview of how the DApp calculates the history-based APY estimations for providing liquidity to a pool:
+
 - **Revenue** = Last 30 Days (Slip fees, divis etc) in SPARTA units value
-- **Depth** = Current SPARTA in the pool * 2 (The TVL in SPARTA value)
+- **Depth** = Current SPARTA in the pool \* 2 (The TVL in SPARTA value)
 
 With those two variables it is pretty simple:
-- **APR** = (Revenue * 12) / Depth
-- **APY** = APR * monthly compounding (technically the pool compounds every block/trade, but it is better to under-estimate)
+
+- **APR** = (Revenue \* 12) / Depth
+- **APY** = APR \* monthly compounding (technically the pool compounds every block/trade, but it is better to under-estimate)
 
 So what we are doing is using the last 30 days of recent pool revenue (in SPARTA value), then multiplying it by 12 to make a full year of estimated revenue then scaling it down by the amount of SPARTA in the pool.
 
@@ -82,7 +106,7 @@ Remember, we should never look at the APY displayed in the DApp and stop there, 
 
 ## Guides
 
-- [Create / List Pool *Guide Coming Soon*](/liquidity-pools?id=guides)
+- [Create / List Pool _Guide Coming Soon_](/liquidity-pools?id=guides)
 - [Analyze Pools](/guides/liquidity/analyze.md)
 - [Add Liquidity (Both)](/guides/liquidity/add-both.md)
 - [Add Liquidity (Single)](/guides/liquidity/add-single.md)
