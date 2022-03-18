@@ -18,7 +18,7 @@ This presents a 'risk' of course, for instance, the number of units you put in i
 
 ### Curated Pools
 
-Spartan Protocol pools have a special status reserved for the most active pools called 'Curated'. The community DAO decides which pools are added or removed from the Curated list using the on-chain DAO functionality. If a pool is Curated, it is enabled for a range of extra features and incentives. Curated LP tokens earn extra 'Dividends' ontop of the usual revenue and are able to also be staked in the DaoVault for extra yield and governance weight in proposals. For a Synth to be deployed/created, it must use an underlying Curated pool.
+Spartan Protocol pools have a special status reserved for the most active pools called 'Curated'. The community DAO decides which pools are added or removed from the Curated list using the on-chain DAO functionality. If a pool is Curated, it is enabled for a range of extra features and incentives. Curated LP tokens earn extra 'Dividends' on top of the usual revenue and are able to also be staked in the DaoVault for extra yield and governance weight in proposals. For a Synth to be deployed/created, it must use an underlying Curated pool.
 
 ### Dividends
 
@@ -30,7 +30,7 @@ Most important of the Curated points to discuss here is 'Dividends', which are i
 
 ### Listing / Creating a Pool
 
-Another way Spartan Protocol hands over control to its users is through its open listing policy. Literally anyone is free to permissionlessly list any standard BEP20 token any time they like by clicking a few buttons and providing the initial liquidity. You don't need permission from any devs or the token's project team or CZ 😂 if you want a pool, you are free to go ahead and create it.
+Another way Spartan Protocol hands over control to its users is through its open listing policy. Literally anyone is free to list any standard BEP20 token any time they like without needing permission from anyone by clicking a few buttons and providing the initial liquidity. You don't need to contact any devs or the token's project team or CZ 😂 if you want a pool, you are free to go ahead and create it.
 
 Think and plan carefully before doing so though, as a general rule, pools become an efficient swap option at a minimum of ~$100,000 in liquidity. Ideally, all pools should aim to build up more than $200,000 in liquidity so that they can have low swap fees and become a viable best-route for aggregators, therefore earning sustainable revenue to grow deeper in a feedback loop.
 
@@ -44,7 +44,7 @@ Think and plan carefully before doing so though, as a general rule, pools become
 
 ### Initializing Pools
 
-When a fresh new pool is deployed / created by someone in the community, it has a special status called 'Initializing' applied to it for 7 days. During this short period, users can add liquidity and swap permissionlessly just like any other normal pool. However, **no-one can remove liquidity** until the pool reaches the end of its 'Initializing' phase.
+When a fresh new pool is deployed / created by someone in the community, it has a special status called 'Initializing' applied to it for 7 days. During this short period, users can add liquidity and swap just like any other normal pool. However, **no-one can remove liquidity** until the pool reaches the end of its 'Initializing' phase.
 
 As soon as 7 days has passed since the pool was deployed, it instantly and automatically becomes a proper, normal, mature pool without the 'Initializing' limitations.
 
@@ -90,7 +90,7 @@ As explained earlier, providing liquidity is very different from staking in a yi
 
 Here is a general overview of how the DApp calculates the history-based APY estimations for providing liquidity to a pool:
 
-- **Revenue** = Last 30 Days (Slip fees, divis etc) in SPARTA units value
+- **Revenue** = Last 30 Days (Slip fees, dividends etc) in SPARTA units value
 - **Depth** = Current SPARTA in the pool \* 2 (The TVL in SPARTA value)
 
 With those two variables it is pretty simple:
@@ -107,7 +107,7 @@ Remember, we should never look at the APY displayed in the DApp and stop there, 
 ## Guides
 
 - [Create / List Pool _Guide Coming Soon_](/liquidity-pools?id=guides)
-- [Analyze Pools](/guides/liquidity/analyze.md)
+- [Analyse Pools](/guides/liquidity/analyze.md)
 - [Add Liquidity (Both)](/guides/liquidity/add-both.md)
 - [Add Liquidity (Single)](/guides/liquidity/add-single.md)
 - [Remove Liquidity (Both)](/guides/liquidity/remove-both.md)

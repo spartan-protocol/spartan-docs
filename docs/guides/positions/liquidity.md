@@ -1,4 +1,4 @@
-## Analyze Your Liquidity Positions
+## Analyse Your Liquidity Positions
 
 The Spartan community DApp has a cool page to help save you the tough job of logging and calculating all of your liquidity related transactions. Please bear with us as we run through all of this as a 'position' is subjective based on what the user was hoping to achieve (accumulate more USD? accumulate more SPARTA? accumulate more of the underlying assets?)
 Each logical scope is covered as best as possible via the DApp so that the user can fully assess how their liquidity is performing in the pools they have selected.

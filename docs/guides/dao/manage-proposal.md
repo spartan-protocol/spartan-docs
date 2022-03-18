@@ -50,7 +50,7 @@ For a proposal to have a chance at succeeding it should be discussed & reach som
 
 ![Proposal Inputs](/../../_media/guides/dao/proposal-inputs.png)
 
-**7.** You will then need to confirm that you know you are about to pay a 'new proposal' fee in SPARTA (noone can recover this fee even if you make a mistake, so be careful!)
+**7.** You will then need to confirm that you know you are about to pay a 'new proposal' fee in SPARTA (no-one can recover this fee even if you make a mistake, so be careful!)
 
 ![Proposal Fee](/../../_media/guides/dao/proposal-fee.png)
 
@@ -128,7 +128,7 @@ If the proposal has reached its required consensus / support from the DAO member
 
 #### **Finalise**
 
-If the proposal has been in the finalising stage for longer than the cool-off period and still has above Quorum consensus, the 'Finalise' button will be enabled and anyone can attempt to do the honors of finalising the proposal. To do so:
+If the proposal has been in the finalising stage for longer than the cool-off period and still has above Quorum consensus, the 'Finalise' button will be enabled and anyone can attempt to do the honours of finalising the proposal. To do so:
 
 1. Click the 'Finalise' button
 2. Confirm the transaction in your wallet (be aware this will cost you BNB gas)

@@ -1,6 +1,6 @@
 ## Adding Liquidity Symmetrically (Add Both)
 
-Before we begin here; it is important you do your research on AMMs, liquidity pools and providing liquidity. For now, you can start with the [information in our docs on our liquidity pools](/liquidity-pools.md). It is also recommended to assess a pool before providing liquidity, [read about how to analyze pools here](/guides/pools/analyze.md).
+Before we begin here; it is important you do your research on AMMs, liquidity pools and providing liquidity. For now, you can start with the [information in our docs on our liquidity pools](/liquidity-pools.md). It is also recommended to assess a pool before providing liquidity, [read about how to analyse pools here](/guides/pools/analyze.md).
 
 Also, make sure you have already created your wallet and connected it to the DApp. This guide assumes you have done the necessary steps to get setup including doing research on how these functions work, important to make sure you know what 'adding liquidity' is and how it affects you. It is not to be confused with what is generally regarded as 'staking', they are vastly different things.
 

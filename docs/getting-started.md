@@ -1,6 +1,6 @@
 ## Community
 
-Before you begin, make sure you confirm you are in the **correct community channels!** There are alot of clever scams and imposter channels/accounts out there, be careful Spartans!
+Before you begin, make sure you confirm you are in the **correct community channels!** There are a lot of clever scams and imposter channels/accounts out there, be careful Spartans!
 
 **Telegram:** https://t.me/SpartanProtocolOrg  
 **Twitter:** https://twitter.com/SpartanProtocol  
@@ -12,11 +12,11 @@ Before you begin, make sure you confirm you are in the **correct community chann
 
 ## Wallets
 
-Spartan Protocol is built ontop of BSC which is an EVM, meaning most common web3 tools from the Ethereum community are also compatible with the ecosystem by default.
+Spartan Protocol is built on top of BSC which is an EVM, meaning most common web3 tools from the Ethereum community are also compatible with the ecosystem by default.
 
 ### Choose Wallet
 
-Choosing a wallet can be a bit subjective based on your preference and devices. If you already have a web3 wallet you use reguarly, it is advised to stick to what you already know. However if you are starting out fresh and need some guidance from these very first steps, the below should help you decide based on the device you use and other features that may be important to you.
+Choosing a wallet can be a bit subjective based on your preference and devices. If you already have a web3 wallet you use regularly, it is advised to stick to what you already know. However if you are starting out fresh and need some guidance from these very first steps, the below should help you decide based on the device you use and other features that may be important to you.
 
 ##### Mobile wallets:
 
@@ -127,14 +127,14 @@ Now let us do a breakdown of the LPs tab, keep in mind the Green & Purple sectio
   - Wallet: The LP tokens are currently in your wallet
   - Staked: The LP tokens are staked in the DaoVault
   - Bonded: The LP tokens are currently locked in a Bond position
-- The token's name (ie. BNBp)
+- The token's name (i.e. BNBp)
   - The 'p' after the BNB stands for 'pool' (LP tokens)
 - Underneath those we have the 'units' of the LP tokens
 
 **Green (Value of tokens):**
 
 - This section (by default) shows the 'redemption value' of the LP tokens
-- What does that mean? Well, if you were to redeem those LP tokens and remove your liquidity right now, the listed asset unit qtys are the estimate of what you would receive
+- What does that mean? Well, if you were to redeem those LP tokens and remove your liquidity right now, the listed asset units are the estimate of what you would receive
 - If you click this area it flips over to $USD value of the bundle of LP tokens
 
 **Blue (Quick-copy button):**
