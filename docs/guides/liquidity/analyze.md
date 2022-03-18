@@ -1,6 +1,6 @@
-## Analyzing a Liquidity Pool
+## Analysing a Liquidity Pool
 
-One of the first steps you should take before providing liquidity to a pool (after reading up on what 'providing liquidity' is of course) is to analyze the pool you are considering. The community has built tools for this which will hopefully help you assess whether a pool has shown a history of aligning with your long term goals.
+One of the first steps you should take before providing liquidity to a pool (after reading up on what 'providing liquidity' is of course) is to analyse the pool you are considering. The community has built tools for this which will hopefully help you assess whether a pool has shown a history of aligning with your long term goals.
 
 #### 1. Liquidity page in the DApp
 
@@ -78,7 +78,7 @@ This should not be considered 'all I have to do before providing liquidity'. It 
 
 Some people are happy to just blindly provide liquidity, others want to see an APY, others want to know how the APY is calculated, others want to see some of the raw data that goes into the APY, others want to see _all_ of the data, and so on.
 
-As Spartans we should strive to want to know what is going on behind the scenes, get our hands dirty, analyze the pools, progress to becoming a Chainalysis master-Spartan!
+As Spartans we should strive to want to know what is going on behind the scenes, get our hands dirty, analyse the pools, progress to becoming a Chainalysis master-Spartan!
 Don't trust; verify! Always!
 
 [<- Back to Liquidity Guides](/liquidity-pools?id=guides)

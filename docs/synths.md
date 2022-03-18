@@ -4,7 +4,7 @@ As the Spartan Protocol liquidity pools growth in depth, they are able to facili
 
 ### Why Forge a Synth?
 
-"But if it is just like holding the underlying asset, why bother doing it?" - Holding a Synth asset provides extra options and utility in the Spartan ecosystem. For instance, at the moment, when you forge a Synth, it is sent directly to the SynthVault, where it accrues compounding yield constantly. A major advantage here of BNBs over BNB for insstance, is that it is earning more BNBs or SPARTA every day, whereas holding BNB in your wallet does not accrue any yield.
+"But if it is just like holding the underlying asset, why bother doing it?" - Holding a Synth asset provides extra options and utility in the Spartan ecosystem. For instance, at the moment, when you forge a Synth, it is sent directly to the SynthVault, where it accrues compounding yield constantly. A major advantage here of BNBs over BNB for instance, is that it is earning more BNBs or SPARTA every day, whereas holding BNB in your wallet does not accrue any yield.
 
 ### What About Impermanent Loss?
 
@@ -16,7 +16,7 @@ As discussed in the 'liquidity' section, providing liquidity gives you impermane
 
 ### Listing / Creating a Synth
 
-For a Synthetic asset to be listed / deployed, it must have a deep underlying pool and that pool must be [Curated](/liquidity-pools?id=curated-pools). If the conditions are met, literally anyone has the ability to click a few buttons and deploy the Synthetic asset token contract. Once again, no permissiion is required here, just go ahead and do it Spartan!
+For a Synthetic asset to be listed / deployed, it must have a deep underlying pool and that pool must be [Curated](/liquidity-pools?id=curated-pools). If the conditions are met, literally anyone has the ability to click a few buttons and deploy the Synthetic asset token contract. Once again, no permission is required here, just go ahead and do it Spartan!
 
 ### Forge Synths (Mint)
 

@@ -8,7 +8,7 @@ How you can help contribute in the community channels _coming soon_
 
 How you can help contribute to the documentation _coming soon_
 
-##### Mardown references
+##### Markdown references
 
 Info on markdown formatting _coming soon_
 
@@ -66,7 +66,7 @@ _coming soon_
 
 - [Get Started on GitHub & Visual Studio _Guide Coming Soon_](/contribute?id=guides)
 
-Move the below steps into the github guide:
+Move the below steps into the Github guide:
 
 ## GitHub guide
 

@@ -1,12 +1,12 @@
 ## Staking
 
-Everything discussed so far might seem quite technical and different to what you consider to be DeFi. That's because _it is_ different to what most consider to be DeFi. For DeFi projects to be sustainable and last more than months or years, it has to be more than just pumping some inflationary token out to people as an incentives without those incentives actually helping bootstrap or fuel some sort of sustainable revenue. Often the approach is just for users to lock assets into a contract that does not even utilize those assets to generate any revenue. Removing tokens from the ciurculating supply is great, but it does nothing to create a sustainable, long term path forward for the protocol or any individuals.
+Everything discussed so far might seem quite technical and different to what you consider to be DeFi. That's because _it is_ different to what most consider to be DeFi. For DeFi projects to be sustainable and last more than months or years, it has to be more than just pumping some inflationary token out to people as an incentives without those incentives actually helping bootstrap or fuel some sort of sustainable revenue. Often the approach is just for users to lock assets into a contract that does not even utilize those assets to generate any revenue. Removing tokens from the circulating supply is great, but it does nothing to create a sustainable, long term path forward for the protocol or any individuals.
 
 So it should now be clear that is why it was important to discuss those revenue sources first (see [liquidity](/liquidity-pools?id=revenue-potential), [swapping](/swap?id=swapping-trading-assets) and [Synths](/synths?id=spartan-synthetic-yield-tokens)) to show you that Spartan Protocol is here for the long term, working on sustainable ways to have the pools incentivise themselves. Having said that, it is also important to bootstrap liquidity in the growth stages in a controlled and non-degen manner. That is where 'Staking' comes in. The Reserve contract holds a bunch of not-yet-circulating SPARTA and controls their distribution to pools and Spartans by the Protocol's incentive functions. By locking up staking-enabled assets within the protocol's vaults, you will be able to earn extra yield and be incentivized further to stay in the pools.
 
 ### Why Stake?
 
-Staking usually involves a user locking up a layer-one asset such as BNB or SPARTA into a smart contract to temporarily remove them from the circulating supply. The problem with this is it doesn't utlize those assets to generate revenue (unsustainable; dependent on inflation) nor does it really provide the protocol or pools with any tangible advantages. With Spartan Protocol's DeFi contracts, only the second-layer assets are able to be staked for yield or governance weight. This means that for anyone to extract incentives from the protocol, they have to show their commitment and provide utility to the ecosystem first.
+Staking usually involves a user locking up a layer-one asset such as BNB or SPARTA into a smart contract to temporarily remove them from the circulating supply. The problem with this is it doesn't utilize those assets to generate revenue (unsustainable; dependent on inflation) nor does it really provide the protocol or pools with any tangible advantages. With Spartan Protocol's DeFi contracts, only the second-layer assets are able to be staked for yield or governance weight. This means that for anyone to extract incentives from the protocol, they have to show their commitment and provide utility to the ecosystem first.
 
 ---
 
@@ -18,11 +18,11 @@ Spartans have the option to stake [Curated](/liquidity-pools?id=curated-pools) L
 
 ### SynthVault Staking
 
-By staking your Synths in the SynthVault (this happens by default when you forge a Synth) you are exposed to compounding yield in the form of the same Synth (ie. BNBs) by default. If the Synth being harvested is capped however, you will receive SPARTA to your wallet instead.
+By staking your Synths in the SynthVault (this happens by default when you forge a Synth) you are exposed to compounding yield in the form of the same Synth (i.e. BNBs) by default. If the Synth being harvested is capped however, you will receive SPARTA to your wallet instead.
 
 ### What is the BondVault?
 
-The BondVault holds the time-locked LP tokens of Spartans who participated in the Bond token distribution program. If you are one of those users, your position/s will show up here and you will be able to claim your unlocked LP tokens to your wallet which are then free for you to do with as you please (Stake in DaoVault, remove liquitity etc)
+The BondVault holds the time-locked LP tokens of Spartans who participated in the Bond token distribution program. If you are one of those users, your position/s will show up here and you will be able to claim your unlocked LP tokens to your wallet which are then free for you to do with as you please (Stake in DaoVault, remove liquidity etc)
 
 The Bond program was retired when the SPARTA token distribution phase was ended and remaining distribution (~37% of the supply at the time) was burned to the 0x0dead address permanently.
 

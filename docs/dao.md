@@ -18,7 +18,7 @@ The Spartan DAO can do _ALOT._ Its definitely the most expansive on-chain DAO ma
 
 Anyone can create a DAO proposal at any time, as long as no other DAO proposal is currently active. The proposer simply has to visit the DAO and click a few buttons to select their proposal type and parameters. They will then have to confirm a transaction to initialise the proposal on-chain.
 
-Some gas and a 'new proposal fee' will require payment by the proposer. This fee doesn't go to any middleman, its intention is not rent-seeking, it goes to the reserve which is where all non-owned SPARTA sits waiting to be released via incentives to good peers in the ecosystem. The main reason for this fee is to help resist spamming / greifing and also to ensure the Spartan is sure about this proposal before confirming it. All proposers should seek general consensus from the community on a proposal _prior_ to creating the proposal on-chain, otherwise they will likely have trouble reaching consensus on-chain within the required time period.
+Some gas and a 'new proposal fee' will require payment by the proposer. This fee doesn't go to any middleman, its intention is not rent-seeking, it goes to the reserve which is where all non-owned SPARTA sits waiting to be released via incentives to good peers in the ecosystem. The main reason for this fee is to help resist spamming / griefing and also to ensure the Spartan is sure about this proposal before confirming it. All proposers should seek general consensus from the community on a proposal _prior_ to creating the proposal on-chain, otherwise they will likely have trouble reaching consensus on-chain within the required time period.
 
 Some more info on the different proposal types in the next section:
 
@@ -40,7 +40,7 @@ Realising the premium of a pool involves working out how much the existing synth
 
 > ℹ. `ADD_CURATED_POOL` Requires: 66.66% Consensus
 
-Adding a pool to the 'Curated' list enables extra features and incentives ontop of the pool as explained in the [liquidity section](/liquidity-pools?id=curated-pools) of the documenation. As this is an important decision involving value extraction functions, a majority (66.66%) consensus is required for it to pass.
+Adding a pool to the 'Curated' list enables extra features and incentives on top of the pool as explained in the [liquidity section](/liquidity-pools?id=curated-pools) of the documenation. As this is an important decision involving value extraction functions, a majority (66.66%) consensus is required for it to pass.
 
 ### Remove Pool from Curated
 
@@ -60,7 +60,7 @@ Here we can regulate the claim percentage of the Reserve that the SynthVault can
 
 Here we can regulate the claim percentage of the Reserve that the DaoVault can begin 'harvest' calculations off. If increased; the harvest rewards will be larger. If decreased they will be lower. This proposal has a hard-coded max input of 1500 basis points and a minimum of 0 basis points (which would effectively turn off harvest rewards)
 
-### Change DAO Proposal Cooloff
+### Change DAO Proposal Cool off
 
 > ℹ. `COOL_OFF` Requires: 50% Consensus
 
@@ -78,7 +78,7 @@ Whilst the contributors have always remained active, the community may decide th
 
 The community can vote through a grant which would allow financial incentives and reward to those involved with any new developments that the community may call for.
 
-This proposal-type has already been testing in the wild with V2 to provide a small grant for marketing purposes thru the last 2021 -> early 2022 months, funding a number of partnerships and opportunities that were preiously un-obtainable due to the 'no treasury' aspect of the project.
+This proposal-type has already been testing in the wild with V2 to provide a small grant for marketing purposes thru the last 2021 -> early 2022 months, funding a number of partnerships and opportunities that were previously un-obtainable due to the 'no treasury' aspect of the project.
 
 As this is an important decision involving value extraction functions, a majority (66.66%) consensus is required for it to pass.
 
@@ -94,13 +94,13 @@ A contract change will allow the contributors to be able to implement changes as
 
 > ℹ. `ROUTER` Requires: 66.66% Consensus
 
-Another contract change proposal which has to be included to ensure that Spartan Protocol is as future proof as possible. The Router contract is likely to be upgraded many times throughout the years, whether it is to cut out unused features, make existing functions more efficent (save gas) or add new features.
+Another contract change proposal which has to be included to ensure that Spartan Protocol is as future proof as possible. The Router contract is likely to be upgraded many times throughout the years, whether it is to cut out unused features, make existing functions more efficient (save gas) or add new features.
 
 ### Upgrade UTILS Contract
 
 > ℹ. `UTILS` Requires: 66.66% Consensus
 
-When V2 launched, a new feeBurn deflationary feature was implemented on every transfer of the SPARTA token. This Utils contract was designed with the intention of making it possible to disable or change that feeBurn, which is exactly what happenned in late November 2021, sending us into the next phase of SPARTA token burns where ~37% of the total supply was burned permanently out of the supply to the 0x0dead address! It is unlikely this contract will need to be changed again in the future as it mostly houses 'helper' functions, but nice to know we always can!
+When V2 launched, a new feeBurn deflationary feature was implemented on every transfer of the SPARTA token. This Utils contract was designed with the intention of making it possible to disable or change that feeBurn, which is exactly what happened in late November 2021, sending us into the next phase of SPARTA token burns where ~37% of the total supply was burned permanently out of the supply to the 0x0dead address! It is unlikely this contract will need to be changed again in the future as it mostly houses 'helper' functions, but nice to know we always can!
 
 ### Upgrade RESERVE Contract
 
@@ -112,7 +112,7 @@ The reserve contract is where the emissions are sent before being distributed to
 
 ### Bond-related Proposals (Deprecated)
 
-With the token distribution phase of the project coming to a close, alot of Bond-related proposals are no longer relevant, but live on in the DAO's proposal-history page in the DApp. These Bond proposals inluded:
+With the token distribution phase of the project coming to a close, a lot of Bond-related proposals are no longer relevant, but live on in the DAO's proposal-history page in the DApp. These Bond proposals included:
 
 - New Bond Allocation: Release a 2M SPARTA allocation available for Bonding.
 - List a Bond Asset: The Bond program was only enabled on limited assets as decided by the DAO
