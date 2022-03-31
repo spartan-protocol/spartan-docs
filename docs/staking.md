@@ -45,6 +45,21 @@ With those two variables it is pretty simple:
 
 So what we are doing is using the last 30 days total Harvested amount (in SPARTA value), then multiplying it by 12 to make a full year of estimated yield then scaling it down by the amount of SPARTA staked in the Vault.
 
+### Harvesting explained
+The maximum harvestable amount depends on following factors:
+- Balance of the reserve (ReserveBalance)
+- Eras to Earn value (ErasToEarn, default = 30)
+- Claim percentage of the vault (DaoClaim, default = 5%)
+
+MaxHarvest = ReserveBalance/ErasToEarn * DaoClaim
+
+The maximum harvestable amount for a single investor (IndividualMaxHarvest) is calculated as follows:
+IndividualMaxHarvest= MaxHarvest*PersonalWeight
+Where personal weight (PersonalWeight) represents your percentage share of the pool.
+
+The actual harvestable amount depends on when the last harvest took place (DaysSinceLastHarvest) and is calculated as follows:
+ActualHarvest = IndividualMaxHarvest*DaysSinceLastHarvest
+
 ---
 
 ## Guides
