@@ -99,8 +99,19 @@ The Bond program was the longer-term 2nd phase of the SPARTA token distribution 
 
 ##### Liquidity Incentives
 
-A controlled and ever-decreasing amount of SPARTA is emitted daily to a reserve contract and allocated for liquidity incentives to reward liquidity providers in the most active pools. This SPARTA only enters circulation via incentives which benefit the good peers in the ecosystem. 
-> Spartans providing liquidity are good Spartans!
+A controlled and ever-decreasing amount of SPARTA is emitted daily to a reserve contract and allocated for liquidity incentives to reward liquidity providers in the most active pools. This SPARTA only enters circulation via incentives which benefit the good peers in the ecosystem. *Spartans providing liquidity are good Spartans!*
+
+> **DailyEmissions = (MaxSupply - TotalSupply) / (EmissionCurve)**
+>
+> MaxSupply = 300,000,000 SPARTA  
+> TotalSupply = 162,000,000 SPARTA (At time of writing)  
+> EmissionCurve = 2048
+>
+> 300M - 162M = 138M  
+> 196M / 2048 = 67,382 SPARTA and decreasing every day!
+>
+> *The TotalSupply used in the daily calculation is ALL minted SPARTA.*   
+> *Yes, this includes all the SPARTA that was burned & SPARTA that is not yet circulating!*
 
 ---
 

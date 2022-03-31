@@ -22,13 +22,9 @@ Spartan Protocol pools have a special status reserved for the most active pools 
 
 ### Dividends
 
-Most important of the Curated points to discuss here is 'Dividends', which are injected into the pool (in the form of $SPARTA) whenever a qualifying swap is performed within a the pool. It doesn't come from the user performing the swap as the slip fee does, instead coming from the 'Reserve' contract which controls the flow of emitted SPARTA incentives throughout the protocol.
-The amount of daily emitted incentives is calculated as follows:
-DailyEmissions = MaxSupply-TotalSupply/(EmissionCurve)
-MaxSupply = 300M $SPARTA (now 242519700 $SPARTA after burn)
-TotalSupply = $SPARTA from bonds + emissions - burned amount (burnforsparta)
-EmissionCurve = 2048
-Emissions take up approximately 33% of the total supply and are released over time according to above formula.
+Most important of the Curated points to discuss here is 'Dividends', which are injected into the pool (in the form of $SPARTA) whenever a qualifying swap is performed within a pool. It doesn't come from the user performing the swap as the slip fee does, instead coming from the 'Reserve' contract which controls the flow of emitted SPARTA incentives throughout the protocol.
+
+---
 
 ## Liquidity Features
 
@@ -84,21 +80,16 @@ When removing liquidity you can choose to receive both assets evenly just like w
 
 If you however choose to remove liquidity to 'one side' the process is very similar to the asymmetrical liquidity add. Firstly, a normal 'Symmetrical Liquidity Removal' is performed where both assets leave the pool of equal value. Then a swap is performed of the unwanted asset to the desired asset to leave you with only the asset you chose to receive. Keep in mind once again that performing a swap will result in slippage so always check your output amount and make sure you are happy with the result.
 
----
-
 ## Liquidity sensitive fees
-Spartan Protocol works with a slip fee based model.
-For every swap done via the pools a swap fee is charged. 
-The pool's depth influences the size of the swap fees.
-With small swaps over deep pools generating small fees.
-And big swaps over shallow pools generating large fees.
 
-Fee = x^2 * Y / (x + X)^2
-x = input amount
-y = output amount
-X = input balance
-Y = output balance
+Spartan Protocol uses liquidity sensitive, slip based fees. Every swap facilitated by the pools has a fee charged to the swapper. The pool's depth vs the swap size influences the size of the fee. As the swap size gets smaller or the pool depth gets larger, the swap fee trends towards zero.
 
+> Fee = (x * x * Y) / (x + X) * (x + X)   
+> x = Input amount  
+> X = Input balance (in the pool)   
+> Y = Output balance (in the pool)  
+
+---
 
 ## DApp Features
 
