@@ -50,6 +50,7 @@ The maximum harvestable amount depends on following factors:
 - Balance of the reserve (ReserveBalance)
 - Eras to Earn value (ErasToEarn, default = 30)
 - Claim percentage of the vault (DaoClaim, default = 5%)
+Where "Eras to Earn" stands for the amount of days to deplete the whole amount of $SPARTA in the reserve.
 
 MaxHarvest = ReserveBalance/ErasToEarn * DaoClaim
 
@@ -59,6 +60,15 @@ Where personal weight (PersonalWeight) represents your percentage share of the p
 
 The actual harvestable amount depends on when the last harvest took place (DaysSinceLastHarvest) and is calculated as follows:
 ActualHarvest = IndividualMaxHarvest*DaysSinceLastHarvest
+
+Calculation example:
+If the reserve holds 9M $SPARTA and the vault claim percentage is 5% then the maximum harvestable amount per day would be 15K $SPARTA
+MaxHarvest = ReserveBalance/ErasToEarn * DaoClaim
+MaxHarvest = 9,000,000/30*0.05 = 15K $SPARTA
+
+Let's say the individual weight of an investor is 30% of the vault and the last harvest was a half day ago (0.5 days) then the maximum an individual investor would be able to harvest is 2250 $SPARTA
+ActualHarvest = MaxHarvest*PersonalWeight*DaysSinceLastHarvest
+ActualHarvest = 15,000 * 0.3 * 0.5 = 2250 $SPARTA
 
 ---
 
