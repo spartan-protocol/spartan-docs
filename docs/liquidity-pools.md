@@ -71,6 +71,13 @@ When you do an 'Asymmetrical Add' (like in the screenshot above) half of your in
 You receive LP tokens at the same time as the respective liquidity add functions outlined above. You can choose to hold them in your wallet or if they are from a 'Curated' pool, you can stake them in the DaoVault for extra yield. You do not need to do anything with your LP tokens to have them earning the swap revenue and dividends.
 
 Providing liquidity is generally regarded to be a longer-term time preference activity. You should do your own research on what pools you think will perform well and how long you think it will take to have the revenue build up to a level where the benefits outweigh the risks.
+The amount of LP tokens you receive represents your share of ownership of the pool and is calculated as follows:
+a = amount of token A deposited
+b = amount of token B deposited
+A = balance of token A
+B = balance of token B
+P = existing pool units
+LP tokens = P*(b/B + a/A)/2 = P*(Ab + aB)/2AB
 
 ### Symmetrical Liquidity Removal (Remove Both)
 
