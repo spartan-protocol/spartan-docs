@@ -71,13 +71,14 @@ When you do an 'Asymmetrical Add' (like in the screenshot above) half of your in
 You receive LP tokens at the same time as the respective liquidity add functions outlined above. You can choose to hold them in your wallet or if they are from a 'Curated' pool, you can stake them in the DaoVault for extra yield. You do not need to do anything with your LP tokens to have them earning the swap revenue and dividends.
 
 Providing liquidity is generally regarded to be a longer-term time preference activity. You should do your own research on what pools you think will perform well and how long you think it will take to have the revenue build up to a level where the benefits outweigh the risks.
-The amount of LP tokens you receive represents your share of ownership of the pool and is calculated as follows:
-a = amount of token A deposited
-b = amount of token B deposited
-A = balance of token A
-B = balance of token B
-P = existing pool units
-LP tokens = P*(b/B + a/A)/2 = P*(Ab + aB)/2AB
+
+> **LP Token Unit Calculation**   
+> LP Units = P * (t * S + T * s) / (2 * T * S)  
+> s = SPARTA liquidity provided   
+> t = TOKEN liquidity provided     
+> S = SPARTA balance in pool  
+> T = TOKEN balance in pool   
+> P = Total pre-existing supply of LP tokens   
 
 ### Symmetrical Liquidity Removal (Remove Both)
 
@@ -87,10 +88,11 @@ When removing liquidity you can choose to receive both assets evenly just like w
 
 If you however choose to remove liquidity to 'one side' the process is very similar to the asymmetrical liquidity add. Firstly, a normal 'Symmetrical Liquidity Removal' is performed where both assets leave the pool of equal value. Then a swap is performed of the unwanted asset to the desired asset to leave you with only the asset you chose to receive. Keep in mind once again that performing a swap will result in slippage so always check your output amount and make sure you are happy with the result.
 
-## Liquidity sensitive fees
+## Liquidity Sensitive Fees
 
 Spartan Protocol uses liquidity sensitive, slip based fees. Every swap facilitated by the pools has a fee charged to the swapper. The pool's depth vs the swap size influences the size of the fee. As the swap size gets smaller or the pool depth gets larger, the swap fee trends towards zero.
 
+> **Fee Calculation**  
 > Fee = (x * x * Y) / (x + X) * (x + X)   
 > x = Input amount  
 > X = Input balance (in the pool)   
