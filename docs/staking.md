@@ -26,6 +26,26 @@ The BondVault holds the time-locked LP tokens of Spartans who participated in th
 
 The Bond program was retired when the SPARTA token distribution phase was ended and remaining distribution (~37% of the supply at the time) was burned to the 0x0dead address permanently.
 
+### Harvesting Explained
+The first part of the equation depends on following factors:
+- Balance of the reserve (ReserveBalance)
+- Eras to Earn value (ErasToEarn, default = 30)
+- Claim percentage of the vault (DaoClaim, default = 5%)
+
+MaxHarvest = ReserveBalance / ErasToEarn * DaoClaim
+
+The harvestable amount for a single investor (IndividualHarvest) depends on when the last harvest took place (DaysSinceLastHarvest) and is calculated as follows:   
+IndividualHarvest = MaxHarvest * PersonalWeight * DaysSinceLastHarvest  
+Where personal weight (PersonalWeight) represents your percentage share of the vault
+
+Calculation example:  
+If the reserve holds 9M $SPARTA and the DaoClaim is 5%, then the MaxHarvest would be 15K $SPARTA  
+MaxHarvest = ReserveBalance / ErasToEarn * DaoClaim   
+MaxHarvest = 9M / 30 * 0.05 = 15K $SPARTA
+
+Let's say the PersonalWeight of an harvester is 30% of the vault and their DaysSinceLastHarvest was a half day ago (0.5 days) then the individual harvest would be 2250 $SPARTA   
+ActualHarvest = MaxHarvest * PersonalWeight * DaysSinceLastHarvest  
+ActualHarvest = 15,000 * 0.3 * 0.5 = 2250 $SPARTA
 
 ---
 
@@ -41,7 +61,7 @@ Here is a general overview of how the DApp calculates the history-based APY esti
 
 With those two variables it is pretty simple:
 - **APR** = (Yield * 12) / Depth
-- **APY** = APR * weekly compounding (it actually compounds every time you harvest, so a week has been chosen as the average harvest rate for this estimation)
+- **APY** = APR * assumed weekly compounding
 
 So what we are doing is using the last 30 days total Harvested amount (in SPARTA value), then multiplying it by 12 to make a full year of estimated yield then scaling it down by the amount of SPARTA staked in the Vault.
 
