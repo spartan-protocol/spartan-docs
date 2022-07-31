@@ -22,46 +22,49 @@ Choosing a wallet can be a bit subjective based on your preference and devices. 
 
 Mobile wallets are great for users who don't need the added security of a hardware wallet or maybe only use a hardware wallet for their cold storage. Mobile wallets tend to have great user interfaces and make things easy for the user. This usually comes at a cost of some features like testnet support & obviously hardware wallets.
 
-|                   Mobile Wallets                   | Android Support | Apple Support | Hardware Wallet Support | Testnet Support |                                                    Comment                                                    |
-| :------------------------------------------------: | :-------------: | :-----------: | :---------------------: | :-------------: | :-----------------------------------------------------------------------------------------------------------: |
-|      [TrustWallet](https://trustwallet.com/)       |       ✅        |      ❌       |           ❌            |       ❌        | Great all-rounder solution if you don't need testnet nor Apple support, can use on desktop thru WalletConnect |
-|          [ONTO Wallet](https://onto.app/)          |       ✅        |      ✅       |           ❌            |       ❌        |                               Cool features, NFT support, great user interface                                |
-|          [MetaMask](https://metamask.io/)          |       ✅        |      ✅       |           ❌            |       ✅        |                                     Popular & trusty option, used by many                                     |
-| [Coinbase Wallet](https://www.coinbase.com/wallet) |       ✅        |      ✅       |           ❌            |       ✅        |                        Great all-rounder solution, can use on desktop thru WalletLink                         |
+|                   Mobile Wallets                   | Android Support | Apple Support | Hardware Wallet Support | Testnet Support |                                 Comment                                 |
+| :------------------------------------------------: | :-------------: | :-----------: | :---------------------: | :-------------: | :---------------------------------------------------------------------: |
+|      [BraveWallet](https://brave.com/wallet/)      |       ✅        |      ✅       |           ❌            |       ✅        | Simple in-browser experience on mobile without requiring a separate app |
+| [Coinbase Wallet](https://www.coinbase.com/wallet) |       ✅        |      ✅       |           ❌            |       ✅        |      In-app browser Android & iOS, via WalletLink for all devices       |
+|          [MetaMask](https://metamask.io/)          |       ✅        |      ✅       |           ❌            |       ✅        |     In-app browser Android & iOS, Ledger Nano X support coming soon     |
+|          [ONTO Wallet](https://onto.app/)          |       ✅        |      ✅       |           ❌            |       ❌        |     In-app browser Android & iOS, via WalletConnect for all devices     |
+|      [TrustWallet](https://trustwallet.com/)       |       ✅        |      ✅       |           ❌            |       ❌        |   In-app browser only for Android, via WalletConnect for all devices    |
 
 ##### Laptop / Desktop wallets:
 
 The web3 experience tends to be best on larger devices, if you desire hardware wallet or testnet support, it is usually best to go for a desktop wallet via a chrome/brave browser extension.
 
-|                                                       Desktop Wallets                                                        | Ledger Support | Trezor Support | Testnet Support | Mobile Wallet Support |
-| :--------------------------------------------------------------------------------------------------------------------------: | :------------: | :------------: | :-------------: | :-------------------: |
-|                                 [TrustWallet (Via WalletConnect)](https://trustwallet.com/)                                  |       ❌       |       ❌       |       ❌        |          ✅           |
-|                             [Coinbase Wallet (Via WalletLink)](https://www.coinbase.com/wallet)                              |       ❌       |       ❌       |       ✅        |          ✅           |
-|                                     [MetaMask (Chrome Extension)](https://metamask.io/)                                      |       ✅       |       ✅       |       ✅        |          ❌           |
-| [BinanceChain (Chrome Extension)](https://chrome.google.com/webstore/detail/binance-wallet/fhbohimaelbohpjbbldcngcnapndodjp) |       ✅       |       ❌       |       ✅        |          ❌           |
-| [Coinbase Wallet (Chrome Extension)](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad) |       ✅       |       ❌       |       ✅        |          ❌           |
+|                                                              Desktop Wallets                                                               | Ledger Support | Trezor Support | Testnet Support | Sign From Mobile |
+| :----------------------------------------------------------------------------------------------------------------------------------------: | :------------: | :------------: | :-------------: | :--------------: |
+|        [BinanceChain (Chrome Extension)](https://chrome.google.com/webstore/detail/binance-wallet/fhbohimaelbohpjbbldcngcnapndodjp)        |       ✅       |       ❌       |       ✅        |        ❌        |
+|                                           [BraveWallet (Web Browser)](https://brave.com/wallet/)                                           |       ✅       |       ✅       |       ✅        |        ❌        |
+| [Coinbase Wallet (Chrome Extension)](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad) |       ✅       |       ❌       |       ✅        |        ❌        |
+|                                    [Coinbase Wallet (Via WalletLink)](https://www.coinbase.com/wallet)                                     |       ❌       |       ❌       |       ✅        |        ✅        |
+|                                            [MetaMask (Chrome Extension)](https://metamask.io/)                                             |       ✅       |       ✅       |       ✅        |        ❌        |
+|                                        [TrustWallet (Via WalletConnect)](https://trustwallet.com/)                                         |       ❌       |       ❌       |       ❌        |        ✅        |
 
 ### Connect to DApp
 
-Once you have created a wallet to hold your funds, you now need to connect your wallet to the community DApp. This is a simple process that will be prompted automatically when you visit the website.
+Once you have created a wallet to hold your funds, you will now need to connect your wallet to the community DApp. This is a simple process that will usually be prompted automatically when you visit the website.
 
-Should that fail, follow the following steps to get connected to the DApp:
+Failing that, follow the following steps to get connected to the DApp:
 
 #### **Open Modal**
 
-1. Find the 'wallet' icon at the top right of the page. If your wallet is not connected, it will have a red indicator above it (see below example)
-2. Click the wallet icon to open the wallet modal
+1. Find the 'Connect Wallet' icon at the top right of the page. If your wallet is not connected, it will have a red indicator (see below example)
+2. Click the wallet button to open the wallet modal
 
 ![Connect Wallet Icon](/../../_media/guides/general/connect-wallet-icon.png)
 
 #### **Select Wallet**
 
-The first time you access the wallet, if you have not previously provided permissions, you will see a page that will allow you to select your preferred web3 wallet, and also the ability to switch between testnet and mainnet networks.
-
-You will need to ensure your network selected in both the DApp and your wallet matches before selecting your wallet to connect to.
+The first wallet modal page lists all the DApp's integrated wallets, and also the ability to switch between testnet and mainnet networks.
 
 1. Find your wallet's icon and click it
 2. If you cannot find your wallet listed, select 'Others'
+3. If your preferred wallet button is disabled, open your wallet and ensure it is enabled/settings allow it to be used by the browser
+
+The first time you connect the wallet to the DApp, you will be prompted to provide some one-time permissions. With your permissions sorted and wallet connected.
 
 ![Select Wallet](/../../_media/guides/general/select-wallet.png)
 
