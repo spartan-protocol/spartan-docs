@@ -4,7 +4,6 @@ Before you begin, make sure you confirm you are in the **correct community chann
 
 **Telegram:** https://t.me/SpartanProtocolOrg  
 **Twitter:** https://twitter.com/SpartanProtocol  
-**Discord:** https://discord.gg/wQggvntnGk  
 **GitHub:** https://github.com/spartan-protocol  
 **Blog:** https://blog.SpartanProtocol.org
 

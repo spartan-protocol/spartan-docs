@@ -1,62 +1,114 @@
 ## API
 
-API Info *Coming Soon*
+API Info (Get supply, tokenomics, TVL, information on each pool etc). Follow the link to our docs inside the API's GitHub repo:
+
+https://github.com/spartan-protocol/spartan-api/blob/main/v1docs.md
 
 ---
 
 ## Aggregator Integration Guide
 
-*Coming Soon*
+Welcome fellow DeFi projects and aggregators! If you are interested in integrating with the Spartan Protocol AMM our community is always on hand and ready to help through the process, but please find below some crucial steps to get started.
+
+##### Derive Current Router Address
+
+The Router and DAO contracts can be replaced by DAO proposals, hence you should ideally derive the current Router address via our source of truth: the SPARTA token contract. Follow these few calls to ensure you are deriving the current permissioned Router address.
+
+1. SPARTA Token Address:
+   `0x3910db0600eA925F63C36DdB1351aB6E2c6eb102` - (We will refer to this contract as `SPARTA` now)
+
+2. With the SPARTA token address, we can perform a static call of:
+   `SPARTA.DAO()` to derive the current DAO contract address - (We will refer to this contract as `DAO` now)
+
+3. With the DAO token address, we can perform a static call of:
+   `DAO.ROUTER()` to derive the current Router contract address - (We will refer to this contract as `ROUTER` now)
+
+We are now in a position to interact with the pools with confidence that we are using the permissioned router
+
+##### Perform a Swap
+
+With the Router address now derived, the easiest way to perform a swap through the pools is to call:  
+`ROUTER.swapTo(uint256 inputAmount, address fromToken, address toToken, address member, uint256 minAmount)`
+
+- `inputAmount` = the wei units amount that the user is looking to sell (aggregators: or the partial amount if performing a split-route swap)
+- `fromToken` = the token address of the token being 'swapped from' / 'sold'
+- `toToken` = the token address of the token being 'swapped to' / 'bought'
+- `member` = the wallet address that will be receiving the output of the swap (where the funds go after the swap, aggregators: this will probably be your own referring router address)
+- `minAmount` = you can input a wei units amount here, if the output is lower than this amount, the transaction will revert
+
+##### Example
+
+Swap 1 BNB for BUSD and send to user, revert if the output is less than 300 BUSD
+
+- 1 unit = `1000000000000000000`
+- BNB address = `0x0000000000000000000000000000000000000000`
+- BUSD address = `0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56`
+- User address = `0x588f82a66eE31E59B88114836D11e3d00b3A7916`
+- 300 units = `300000000000000000000`
+
+`ROUTER.swapTo(`  
+ `1000000000000000000,`  
+ `0x0000000000000000000000000000000000000000,`  
+ `0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56,`  
+ `0x588f82a66eE31E59B88114836D11e3d00b3A7916,`  
+ `300000000000000000000`  
+`)`
+
+##### Reference
+
+`DAO.ROUTER()` - https://github.com/spartan-protocol/spartanswap-contracts/blob/master/contracts/Dao.sol#L621  
+`ROUTER.swapTo()` - https://github.com/spartan-protocol/spartanswap-contracts/blob/master/contracts/Router.sol#L214  
+`POOLFACTORY.getPool()` - https://github.com/spartan-protocol/spartanswap-contracts/blob/master/contracts/poolFactory.sol#L124
 
 ---
 
 ## Smart contracts
 
 Please find below some important notes divided up by contract scope for the curious Spartans and developers looking to integrate.
-For projects looking to fork or explore our ideas in their own project, we live and breath open source and welcome you to both fork and integrate in our community and ask questions. 
+For projects looking to fork or explore our ideas in their own project, we live and breath open source and welcome you to both fork and integrate in our community and ask questions.
 
 We only want to see things get built and continue to innovate the decentralised, open source world, so reach out and let us know what you are working on.
 
 ##### Base contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### BondVault contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### DAO contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### DaoVault contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### FallenSpartans contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### PoolFactory contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### Reserve contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### Router contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### SynthFactory contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### SynthVault contract
 
-*Coming Soon*
+_Coming Soon_
 
 ##### Utils contract
 
-*Coming Soon*
+_Coming Soon_
