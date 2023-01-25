@@ -1,6 +1,6 @@
 ## API
 
-API Info (Get supply, tokenomics, TVL, information on each pool etc). Follow the link to our docs inside the API's GitHub repo:
+API Info (Get swap quotes, supply, tokenomics, TVL, pool information etc). Follow the link to our docs inside the API's GitHub repo:
 
 https://github.com/spartan-protocol/spartan-api/blob/main/v1docs.md
 
@@ -9,6 +9,50 @@ https://github.com/spartan-protocol/spartan-api/blob/main/v1docs.md
 ## Aggregator Integration Guide
 
 Welcome fellow DeFi projects and aggregators! If you are interested in integrating with the Spartan Protocol AMM our community is always on hand and ready to help through the process, but please find below some crucial steps to get started.
+
+#### Integrate Swap Quoting
+
+If you are a front-end project or similar looking to get a quote for swapping between two assets via the SPv2 pools, follow along to integrate swap quoting either directly via a SpartanSwap Utility smart contract (this is the best option for trust and uptime reasons) or via the SpartanProtocol API (this is the more convenient option)
+
+A note on WBNB & BNB handling: You can either enter the BNB (`0x0000000000000000000000000000000000000000`) address or the WBNB (`0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`) address and the same WBNB pool will be utilised correctly to return you the sazme result whether using the smart contract call or the API.
+
+##### Via SpartanSwap Utils Smart Contract
+
+To get a quote for a swap via the SpartanSwap Utils contract you will only need a few things:
+- An RPC and provider object to static call web3/smart contracts (you do not need a signer object as this is a read-only call)
+- Token contract address for the input token (address string)
+- Token contract address for the output token (address string)
+- WEI units of the input token you want to swap (wei string)
+
+Build the contract object (see ethers.js) with your provider/rpc + the SpartanSwap Utils contract address + ABI:
+- SSUtils Address: `0x3B599Dd050a10D224195A921a172fFDB50D9B559`
+- BSCScan Link: https://bscscan.com/address/0x3B599Dd050a10D224195A921a172fFDB50D9B559#code
+- ABI Link: https://api.bscscan.com/api?module=contract&action=getabi&address=0x3B599Dd050a10D224195A921a172fFDB50D9B559
+
+Call the swap quote function:
+`SSUtilsContractObject.getSwapOutput(inputAddress,outputAddress,inputUnitsWei)`
+
+Don't forget: the input is in WEI so for `1.0` BNB units input you would enter: `1000000000000000000`
+The return is *also* in WEI. So don't forget to convert WEI->UNITS for the end user.
+
+##### Via Spartan Protocol API
+
+To get a quote for a swap via the SpartanProtocol API you will only need a few things:
+- Token contract address for the input token (address string)
+- Token contract address for the output token (address string)
+- WEI units of the input token you want to swap (wei string)
+
+Call the endpoint with your desired inputs as URL params. The following example will quote for swapping 1.0 USDT to BUSD:
+`https://api.spartanprotocol.org/api/v1/swapQuote?inputAddr=0x55d398326f99059fF775485246999027B3197955&outputAddr=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&inputUnits=100000000000000000000`
+
+Don't forget: the input is in WEI so for `1.0` USDT units input you would enter: `1000000000000000000`
+The return is *also* in WEI as a string type. So don't forget to convert WEI -> UNITS for the end user along with any desired number-formatting.
+
+API endpoint documentation: https://github.com/spartan-protocol/spartan-api/blob/main/v1docs.md
+
+#### Integrate Swap Functionality
+
+If you are a swap aggregator or any project looking to be able to utilise the Spartan Protocol V2 AMM pools to perform swaps, follow along to get integrated today!
 
 ##### Derive Current Router Address
 
