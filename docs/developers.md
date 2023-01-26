@@ -25,9 +25,9 @@ To get a quote for a swap via the SpartanSwap Utils contract you will only need 
 - WEI units of the input token you want to swap (wei string)
 
 Build the contract object (see ethers.js) with your provider/rpc + the SpartanSwap Utils contract address + ABI:
-- SSUtils Address: `0x3B599Dd050a10D224195A921a172fFDB50D9B559`
-- BSCScan Link: https://bscscan.com/address/0x3B599Dd050a10D224195A921a172fFDB50D9B559#code
-- ABI Link: https://api.bscscan.com/api?module=contract&action=getabi&address=0x3B599Dd050a10D224195A921a172fFDB50D9B559
+- SSUtils Address: `0xB7B3216A199893aC00486Fe30439A8F4388fF4C9`
+- BSCScan Link: https://bscscan.com/address/0xB7B3216A199893aC00486Fe30439A8F4388fF4C9#code
+- ABI Link: https://api.bscscan.com/api?module=contract&action=getabi&address=0xB7B3216A199893aC00486Fe30439A8F4388fF4C9
 
 Call the swap quote function:
 `SSUtilsContractObject.getSwapOutput(inputAddress,outputAddress,inputUnitsWei)`
