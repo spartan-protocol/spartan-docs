@@ -2,29 +2,28 @@
 
 ![Spartan Protocol Bram Header](/_media/BramHeader.png)
 
-With Binance Smart Chain on the brink of launching on mainnet and the ever-increasing gas costs on Ethereum, a group of motivated Binance community members saw the opportunity to develop a platform that takes advantage of the opportunities provided by the faster and cheaper EVM chain. An extensive DeFi platform for the community with equal access and participation by all.
+With Binance Smart Chain on the brink of launching on mainnet and the ever-increasing gas costs on Ethereum, a group of motivated Binance Chain (now known as BNB Beacon Chain) community members saw the opportunity to develop a platform that takes advantage of the opportunities provided by the faster and cheaper EVM chain. An extensive DeFi platform for the community with equal access and participation by all.
 
-?> **Ensure you are interacting with Spartan Protocol via official means:**  
+?> **Ensure you are interacting with Spartan Protocol via recommended means:**  
 **- Telegram:** https://t.me/SpartanProtocolOrg  
-**- Website:** https://SpartanProtocol.org  
-**- DApp:** https://DApp.SpartanProtocol.org  
+**- Community Website:** https://SpartanProtocol.org  
+**- Community DApp:** https://DApp.SpartanProtocol.org  
 
 Core points Spartan Protocol was built on:
 
 - The project is built, maintained and governed by the community
-- Fair launch - existing assets destroyed to acquire $SPARTA through a process referred to as _Proof-of-Burn_
+- Fair launch - existing assets destroyed to acquire SPARTA through a process referred to as _Proof-of-Burn_
 - Binance Chain communities selected to participate - drive forward BSC adoption and education
-- The Protocol starts as decentralised as possible, with further decentralisation as the project matures
+- The Protocol starts as decentralized as possible, with further decentralization as the project matures
 - The Protocol strives towards full automation, with any ongoing maintenance enacted by the community DAO
 
-Spartan Protocol combined some new and fresh ideas with many varied and popular aspects of the DeFi landscape to utilise the best parts of great protocols such as:
+Spartan Protocol combined some new and fresh ideas with many varied and popular aspects of the DeFi landscape to utilize the best parts of great protocols such as:
 
 - Thorchain ($RUNE)
 - Bancor ($BNT)
 - UniSwap ($UNI)
-- Vader Protocol ($VADER)
 
-> Spartan Protocol is a custom-built AMM, **not** the usual UniSwap copy-paste clone. Our code has been built by the community from the ground up (not a fork) with inherently unique liquidity pool features such as:
+> Spartan Protocol V1 & V2 are custom-built AMMs, **not** the usual UniSwap copy-paste clone. Our code has been built by the community from the ground up (not a fork) with inherently unique liquidity pool features such as:
 >
 > - Liquidity sensitive fees (No fixed fee, trends to zero with increased liquidity)
 > - Common settlement asset ($SPARTA, acting as a global price anchor)
@@ -41,11 +40,11 @@ This unique liquidity model allows Spartan Protocol's pools to be very capital e
 
 ##### Synthetic Assets
 
-As the pools get deeper, they allow users to forge special synthetic versions of the underlying assets (Synths). Synths allow you to earn yield on an otherwise stagnant assets in varied market conditions.
+As the pools get deeper, they allow users to forge special synthetic versions of the underlying assets (Synths). Synths allow you to earn yield on an otherwise stagnant assets in varied market conditions. Synths went live with V2 and have now been moved to layers above the AMM along with other planned derivatives in favour of ecosystem projects handling them going forward. 
 
 ##### Stake Tokens
 
-Staking is when you send your assets to a special contract and put it to work earning you extra yield. Liquidity providers can stake their LP tokens in the DaoVault to earn extra SPARTA yield on top of the LP token revenue. Synth holders can stake their Synth tokens in the SynthVault to earn SPARTA or compounding Synth yield too.
+Staking is when you send your assets to a special contract and put it to work earning you extra yield. Liquidity providers can stake their LP tokens in the DaoVault to earn extra SPARTA yield on top of the LP token revenue. Synth holders were able to also stake their Synth tokens in the SynthVault to earn SPARTA or compounding Synth yield too.
 
 ##### DAO Governance
 
@@ -57,13 +56,13 @@ A decentralized autonomous organization (DAO) governs many of the variables and 
 
 ![Spartan Protocol Token Header](/_media/TokenHeader.png)
 
-The SPARTA token is essential to the protocol. It acts as the settlement asset for **every pool** meaning that all pools are paired with SPARTA. This in turn has the token acting as the essential element in the protocol's decentralised oracle. The price of any listed token can be derived from it's pooled ratio with SPARTA **without the dependence on any external oracle.**
+The SPARTA token is essential to the protocol. It acts as the settlement asset for **every pool** meaning that all pools are paired with SPARTA. This in turn has the token acting as the essential element in the protocol's decentralized oracle. The price of any listed token can be derived from it's pooled ratio with SPARTA **without the dependence on any external oracle.**
 
 ?> **V2 Token Contract:** [0x3910db0600eA925F63C36DdB1351aB6E2c6eb102](https://bscscan.com/address/0x3910db0600eA925F63C36DdB1351aB6E2c6eb102)
 
 ##### Token Distribution
 
-One of the biggest statements of Spartan Protocol is its fair launch. The community who formed the idea of the protocol was sick of the scams, rug-pulls and general degen, scummy greedy behaviour going on in the DeFi world. So they created a plan to launch the token **without all the bizarre rent seeking aspects found all over the DeFi world.** Flip the whole thing on its head, making most of the common scam behaviour not even possible with:
+One of the biggest statements of Spartan Protocol is its fair launch. The community who formed the idea of the protocol was sick of the scams, rug-pulls and general degen, scummy greedy behavior going on in the DeFi world. So they created a plan to launch the token **without all the bizarre rent seeking aspects found all over the DeFi world.** Flip the whole thing on its head, making most of the common scam behavior not even possible with:
 
 - No Airdrops
 - No token sale
@@ -86,7 +85,7 @@ Every new SPARTA token can only be obtained through Proof-of-Burn, liquidity inc
 > Planned Initial Allocation: 100,000,000  
 > Proof-of-Burn: 42,414,904  
 > Bond Program: 23,500,000  
-> **Finalised Initial Allocation: 65,914,904 (-34.08%)**  
+> **Finalized Initial Allocation: 65,914,904 (-34.08%)**  
 > (Smaller allocation than set out in whitepaper 😍)
 
 ##### Proof-of-Burn
@@ -117,7 +116,7 @@ A controlled and ever-decreasing amount of SPARTA is emitted daily to a reserve 
 
 ## Liquidity Sensitive Fees
 
-It is very important to devote a section here specifically to the liquidity sensitive fee model used in Spartan Protocol as this really sets it apart from other AMMs on BSC. Spartan Protocol utilises slip-based fees to reward its liquidity providers. Whilst this dynamic system is fairly unique on BSC, it has been utilised on other blockchains, proving itself to be advantageous over the standard fixed-fee model in many regards.
+It is very important to devote a section here specifically to the liquidity sensitive fee model used in Spartan Protocol as this really sets it apart from other AMMs on BSC. Spartan Protocol utilizes slip-based fees to reward its liquidity providers. Whilst this dynamic system is fairly unique on BSC, it has been utilized on other blockchains, proving itself to be advantageous over the standard fixed-fee model in many regards.
 
 The size of a transaction, over the depth of the liquidity pool, is what defines the demand for liquidity, so having a fee that's proportional to the liquidity solves several key problems. One such advantage of slip-based fees is that when demand for liquidity is high, the value-capture is much better for the providers of the liquidity. On the flip side of this, in times of low demand, the fees are reduced, thus making the Spartan pools more attractive to traders and aggregators.
 

@@ -1,6 +1,6 @@
 ## Swapping / Trading Assets
 
-Decentralised liquidity pools provide a _non-custodial_ method of instantly swapping / trading between different assets directly inside your wallet. The pools are incentivized to be balanced with the market prices of the underlying assets which gives us an accurate market price to swap assets at without requiring an order book or individuals making up both the 'sell' and 'buy' sides of the trade. As a user you simply click a button and receive your desired assets without any human or centralised permission required.
+Decentralized liquidity pools provide a _non-custodial_ method of instantly swapping / trading between different assets directly inside your wallet. The pools are incentivized to be balanced with the market prices of the underlying assets which gives us an accurate market price to swap assets at without requiring an order book or individuals making up both the 'sell' and 'buy' sides of the trade. As a user you simply click a button and receive your desired assets without any human or centralized permission required.
 
 ### Swapping Normal Tokens
 
@@ -8,7 +8,7 @@ Spartan Protocol allows users to swap BSC tokens (BEP20 assets) like BNB, SPARTA
 
 ### Swapping LP Tokens
 
-The protocol also provides another unique feature to swap between LP tokens. For instance if you have provided liquidity to the BNB:SPARTA pool and want to move that liquidity to the BUSD:SPARTA pool, you can swap the BNBp tokens for BUSDp tokens. Care should be take when doing this between shallow pools as there is slippage exposure multiple times in this transaction.
+The protocol also provides another unique feature to swap between LP tokens. For instance if you have provided liquidity to the BNB:SPARTA pool and want to move that liquidity to the BUSD:SPARTA pool, you can swap the BNBp tokens for BUSDp tokens. Care should be take when doing this between shallow pools and/or with large swap amounts as there is slippage exposure multiple times in this transaction.
 
 Currently this feature has only been integrated in the [community-run DApp](https://dapp.spartanprotocol.org)
 

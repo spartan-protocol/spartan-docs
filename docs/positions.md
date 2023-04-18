@@ -1,6 +1,6 @@
 ## Positions
 
-Assessing whether you are 'up' or 'down' since entering a DeFi position is very helpful, everyone wants to do it. Problem is, it's extremely difficult to do and there is *a lot* of subjective angles and nuances to cover. Fortunately, the Spartan community worked tirelessly to provide a handy tool to do exactly that whilst covering as many of the nuances/scopes as possible.
+Assessing whether you are 'up' or 'down' since entering a DeFi position is very helpful, everyone wants to do it. Problem is, it's extremely difficult to do and there is *a lot* of subjective angles and nuances to cover. Fortunately, the Spartan community worked tirelessly to provide a handy tool to do exactly that whilst covering as many of the nuances/scopes as possible with the data we can access.
 
 ### Liquidity Position
 

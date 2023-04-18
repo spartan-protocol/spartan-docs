@@ -12,7 +12,6 @@
 - [🕵️‍♀️ **Positions**](/positions.md "Assessing positions in Spartan Protocol")
 - [🙋‍♀️ **DAO**](/dao.md "DAO in Spartan Protocol")
 - [🚀 **Upgrade V1 to V2**](/upgrade.md "Upgrade SPARTA v1 tokens to SPARTAv2")
-- [👼 **Donate**](/donate.md "Donate to the Spartan community wallet")
 
 ---
 

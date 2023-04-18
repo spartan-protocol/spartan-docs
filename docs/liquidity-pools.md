@@ -1,6 +1,6 @@
 ## Liquidity Pools
 
-A decentralised liquidity pool is a smart contract which holds two assets of balanced value for the purpose of facilitating decentralised finance features such as swapping one asset for another without the need for a traditional order book and custody of assets.
+A decentralized liquidity pool is a smart contract which holds two assets of balanced value for the purpose of facilitating decentralized finance features such as swapping one asset for another without the need for a traditional order book and custody of assets.
 
 Providing liquidity is when you provide one or both of the assets to a liquidity pool. In doing so, you will be improving the depth of the pool and helping it become more effective at facilitating larger and cheaper swaps for users looking to utilize these liquidity pools. Obviously people don't do this just out of the kindness of their hearts, there must be some incentives in place to ensure there is a sustainable feedback loop in place.
 
@@ -8,7 +8,7 @@ Providing liquidity is when you provide one or both of the assets to a liquidity
 
 When users utilize a pool by swapping assets through it, they pay a proportionate fee which stays inside the pool. By providing liquidity, you receive LP tokens which represent a percentage share of all assets in the pool, this includes those fees which are absorbed by the pool during a swap. They are instantly attributed to the liquidity providers during that very swap.
 
-It is very important to re-highlight the point that liquidity providers do not 'stake' their assets in a pool expecting back the exact same amount of tokens when they leave, but rather they receive LP tokens that represent a share of _all_ assets in the pool.
+It is very important to re-highlight the point that liquidity providers do not 'stake' their assets in a pool expecting back the exact same amount of tokens when they leave, but rather they receive LP tokens representing a share of _all_ assets in the pool.
 
 ### Impermanent Loss
 
@@ -125,7 +125,7 @@ Remember, we should never look at the APY displayed in the DApp and stop there, 
 ## Guides
 
 - [Create / List Pool _Guide Coming Soon_](/liquidity-pools?id=guides)
-- [Analyse Pools](/guides/liquidity/analyze.md)
+- [Analyze Pools](/guides/liquidity/analyze.md)
 - [Add Liquidity (Both)](/guides/liquidity/add-both.md)
 - [Add Liquidity (Single)](/guides/liquidity/add-single.md)
 - [Remove Liquidity (Both)](/guides/liquidity/remove-both.md)
