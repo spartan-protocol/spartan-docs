@@ -2,6 +2,8 @@
 
 Before you begin, make sure you confirm you are in the **correct community channels!** There are a lot of clever scams and imposter channels/accounts out there, be careful Spartans!
 
+The following are the recommended community-managed channels:
+
 **Telegram:** https://t.me/SpartanProtocolOrg  
 **Twitter:** https://twitter.com/SpartanProtocol  
 **GitHub:** https://github.com/spartan-protocol  
@@ -40,6 +42,7 @@ The web3 experience tends to be best on larger devices, if you desire hardware w
 | [Coinbase Wallet (Chrome Extension)](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad) |       ✅       |       ❌       |       ✅        |        ❌        |
 |                                    [Coinbase Wallet (Via WalletLink)](https://www.coinbase.com/wallet)                                     |       ❌       |       ❌       |       ✅        |        ✅        |
 |                                            [MetaMask (Chrome Extension)](https://metamask.io/)                                             |       ✅       |       ✅       |       ✅        |        ❌        |
+|                                            [Rabby Wallet](https://rabby.io/)                                             |       ✅       |       ✅       |       ✅        |        ✅        |
 |                                        [TrustWallet (Via WalletConnect)](https://trustwallet.com/)                                         |       ❌       |       ❌       |       ❌        |        ✅        |
 
 ### Connect to DApp
@@ -195,7 +198,7 @@ If your transaction failed and you are not sure why; feel free to reach out in t
 
 ## Helpful Links
 
-There are numerous amazing tools out there to help you navigate the decentralised crypto landscape. We will continue to update this list with helpful links as they are curated in by the community.
+There are numerous amazing tools out there to help you navigate the decentralized crypto landscape. We will continue to update this list with helpful links as they are curated in by the community.
 
 - **Bubblemaps** by Moonlight lets you visualize the distribution of a token. [View the SPARTA Bubblemap here.](https://bubbles.moonlighttoken.com/token/0x3910db0600ea925f63c36ddb1351ab6e2c6eb102)
 - **BscScan** should become a bookmark in your browser right away, you will use it every day if you are a true BSC DeFi warrior! [View SPARTA on BscScan here.](https://bscscan.com/token/0x3910db0600eA925F63C36DdB1351aB6E2c6eb102#balances)
